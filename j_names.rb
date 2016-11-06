@@ -3,7 +3,7 @@ class_ = ["justin", "alex", "mary", "Janet", "peter", "jason", "jake", "gary", "
 clas_j_names = []
 
 class_.each do |name|
-  if name.capitalize.start_with?("J")
+  if name.start_with?("J")
     clas_j_names << name
   end
 end
